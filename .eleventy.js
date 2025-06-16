@@ -17,13 +17,10 @@ module.exports = function (eleventyConfig) {
         if (format === "%Y") {
             return date.getFullYear();
         }
-        // Você pode adicionar outros formatos aqui se precisar no futuro
         return date.toLocaleDateString("pt-BR"); // Fallback padrão
     });
 
     // Adiciona uma coleção para os posts
-    // Isso diz ao Eleventy para pegar todos os arquivos .md dentro da pasta 'posts'
-    // e adicioná-los à coleção 'posts'.
     eleventyConfig.addCollection("posts", function (collection) {
         return collection.getFilteredByGlob("posts/*.md");
     });
