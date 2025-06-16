@@ -36,3 +36,5 @@ Se você está começando agora, respira fundo e não se sinta sobrecarregado. O
 E o mais importante: divirta-se! Transforme a organização em um jogo, em uma exploração. Veja suas ideias florescerem e se conectarem de maneiras que você nunca imaginou. O Obsidian não é só uma ferramenta, é um convite para você entender e celebrar a forma única como sua mente funciona.
 
 E você, já usa o Obsidian? Como ele tem te ajudado? Compartilhe suas experiências e dicas nos comentários! Vamos construir essa comunidade de mentes brilhantes e únicas juntos!
+
+**P.S.: Espero que este guia tenha sido útil para você começar sua jornada com o Obsidian!**
