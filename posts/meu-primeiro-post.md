@@ -1,7 +1,8 @@
 ---
-title: Obsidian para Mentes Brilhantes e Únicas: Um Guia Amigável para Neurodivergentes
+title: Obsidian para Mentes Brilhantes e Únicas Um Guia Amigável para Neurodivergentes
 date: 2025-06-16
 layout: base.njk
+author: Ricardo "Ricas" # <--- Adicione esta linha
 ---
 
 E aí, pessoal! Tudo bem? Hoje a gente vai bater um papo sobre uma ferramenta que tem feito a cabeça (e organizado a vida!) de muita gente, especialmente da galera neurodivergente: o Obsidian. Se você já se sentiu meio perdido no mar de informações, com a cabeça borbulhando de ideias que parecem fugir a todo momento, ou se a organização tradicional simplesmente não funciona pra você, cola aqui que esse texto é pra você!
