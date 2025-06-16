@@ -21,6 +21,13 @@ module.exports = function (eleventyConfig) {
         return date.toLocaleDateString("pt-BR"); // Fallback padrão
     });
 
+    // Adiciona uma coleção para os posts
+    // Isso diz ao Eleventy para pegar todos os arquivos .md dentro da pasta 'posts'
+    // e adicioná-los à coleção 'posts'.
+    eleventyConfig.addCollection("posts", function (collection) {
+        return collection.getFilteredByGlob("posts/*.md");
+    });
+
     // Define a pasta de entrada e saída
     return {
         dir: {
