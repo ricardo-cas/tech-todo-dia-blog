@@ -251,3 +251,42 @@ footer {
         /* Limita o tamanho da imagem em mobile */
     }
 }
+
+/* Estilos para a imagem em miniatura do post */
+.post-image {
+    flex-shrink: 0;
+    /* Não permite que a imagem encolha */
+    width: 150px;
+    /* Largura fixa para a miniatura */
+    height: 100px;
+    /* Altura fixa para a miniatura */
+    overflow: hidden;
+    /* Esconde qualquer parte da imagem que exceda as dimensões */
+    border-radius: 5px;
+}
+
+.post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Garante que a imagem cubra a área sem distorcer */
+    display: block;
+}
+
+/* Ajuste para o post-card quando tem imagem */
+.post-card {
+    align-items: center;
+    /* Centraliza verticalmente o conteúdo e a imagem */
+}
+
+/* Responsividade para a imagem */
+@media (max-width: 768px) {
+    .post-card .post-image {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        /* Limita a largura em telas menores */
+        margin-bottom: 15px;
+        /* Espaçamento abaixo da imagem em mobile */
+    }
+}

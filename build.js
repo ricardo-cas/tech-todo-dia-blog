@@ -5,10 +5,21 @@ const md = new MarkdownIt();
 
 const postsDir = path.join(__dirname, "posts");
 const outputDir = path.join(__dirname, "public");
+const imagesDir = path.join(__dirname, "images"); // <--- Adicione esta linha
 
 // Garante que a pasta de saída exista
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir);
+}
+
+if (fs.existsSync(imagesDir)) { // <--- Adicione este bloco
+    const outputImagesDir = path.join(outputDir, "images");
+    if (!fs.existsSync(outputImagesDir)) {
+        fs.mkdirSync(outputImagesDir);
+    }
+    fs.readdirSync(imagesDir).forEach(file => {
+        fs.copyFileSync(path.join(imagesDir, file), path.join(outputImagesDir, file));
+    });
 }
 
 // Função para ler o Front Matter e o conteúdo do Markdown
@@ -77,16 +88,15 @@ fs.readdirSync(postsDir).forEach(file => {
         </main>
         <aside class="sidebar">
             <div class="author-card">
-                <img src="https://via.placeholder.com/100" alt="Foto do Autor" class="author-avatar">
-                <h3>Seu Nome Aqui</h3>
-                <p>Desenvolvedor e entusiasta de organização para mentes neurodivergentes.</p>
-                <button class="follow-button">Seguir</button>
+                <img src="https://placehold.co/100x100" alt="Foto do Autor" class="author-avatar">
+                <h3>Ricardo "Ricas" Costa Alves</h3>
+                <p>Pai, tech freak e Neurodivergente</p>
             </div>
         </aside>
     </div>
     <footer>
         <div class="container">
-            <p>&copy; ${new Date().getFullYear()} Meu Blog Vercel. Todos os direitos reservados.</p>
+            <p>&copy; ${new Date().getFullYear()} Tech Todo Dia. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
@@ -110,13 +120,13 @@ const indexHtml = `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem-vindo ao Meu Blog Vercel</title>
+    <title>Bem-vindo ao Tech Todo Dia</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
         <div class="container header-content">
-            <h1><a href="/">Meu Blog Vercel</a></h1>
+            <h1><a href="/">Tech Todo Dia</a></h1>
             <nav>
                 <a href="/">Início</a>
             </nav>
@@ -136,22 +146,26 @@ const indexHtml = `
                                 <span>✍️ ${post.meta.author}</span>
                             </div>
                         </div>
+                        ${post.meta.thumbnail ? `
+                        <div class="post-image">
+                            <img src="${post.meta.thumbnail}" alt="${post.meta.title}">
+                        </div>
+                        ` : ''}
                     </div>
                 `).join("")}
             </div>
         </main>
         <aside class="sidebar">
             <div class="author-card">
-                <img src="https://via.placeholder.com/100" alt="Foto do Autor" class="author-avatar">
-                <h3>Seu Nome Aqui</h3>
-                <p>Desenvolvedor e entusiasta de organização para mentes neurodivergentes.</p>
-                <button class="follow-button">Seguir</button>
+                <img src="https://placehold.co/100x100" alt="Foto do Autor" class="author-avatar">
+                <h3>Ricardo "Ricas" Costa Alves</h3>
+                <p>Pai, tech freak e Neurodivergente</p>
             </div>
         </aside>
     </div>
     <footer>
         <div class="container">
-            <p>&copy; ${new Date().getFullYear()} Meu Blog Vercel. Todos os direitos reservados.</p>
+            <p>&copy; ${new Date().getFullYear()} Tech Todo Dia. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
@@ -161,3 +175,4 @@ const indexHtml = `
 fs.writeFileSync(path.join(outputDir, "index.html"), indexHtml);
 
 console.log("Blog gerado com sucesso na pasta public/!");
+
