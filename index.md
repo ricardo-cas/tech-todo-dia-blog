@@ -2,6 +2,7 @@
 layout: base.njk
 title: Bem-vindo ao Meu Blog Obsidian
 author: Ricardo "Ricas" 
+date: 2025-06-16
 ---
 
 # Últimos Posts
