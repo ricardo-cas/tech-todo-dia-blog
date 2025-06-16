@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve"
+    "build": "node build.js",
+    "start": "node build.js && npx serve public"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ricardo Costa Alves dos Santos",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.1"
+    "@11ty/eleventy": "^3.1.1",
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
   }
 }

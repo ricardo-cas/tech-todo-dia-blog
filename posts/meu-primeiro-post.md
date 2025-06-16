@@ -1,8 +1,8 @@
 ---
 title: Obsidian para Mentes Brilhantes e Únicas Um Guia Amigável para Neurodivergentes
 date: 2025-06-16
-layout: base.njk
-author: Ricardo "Ricas" # <--- Adicione esta linha
+author: Ricardo "Ricas"
+excerpt: E aí, pessoal! Tudo bem? Hoje a gente vai bater um papo sobre uma ferramenta que tem feito a cabeça (e organizado a vida!) de muita gente, especialmente da galera neurodivergente -  o Obsidian.
 ---
 
 E aí, pessoal! Tudo bem? Hoje a gente vai bater um papo sobre uma ferramenta que tem feito a cabeça (e organizado a vida!) de muita gente, especialmente da galera neurodivergente: o Obsidian. Se você já se sentiu meio perdido no mar de informações, com a cabeça borbulhando de ideias que parecem fugir a todo momento, ou se a organização tradicional simplesmente não funciona pra você, cola aqui que esse texto é pra você!
@@ -11,9 +11,9 @@ Sabe aquela sensação de ter um monte de post-its espalhados pela mesa, mas nen
 
 ## O que é o Obsidian e por que ele é um game-changer?
 
-Pra quem ainda não conhece, o Obsidian é tipo um canivete suíço digital para suas anotações. Mas não é só mais um aplicativo de notas, viu? Ele funciona como um 'segundo cérebro', onde você pode conectar ideias, pensamentos e informações de um jeito que faz sentido *pra você*. Esqueça as pastas e hierarquias rígidas que te deixam de cabelo em pé. No Obsidian, a mágica acontece com os links.
+Pra quem ainda não conhece, o Obsidian é tipo um canivete suíço digital para suas anotações. Mas não é só mais um aplicativo de notas, viu? Ele funciona como um \'segundo cérebro\', onde você pode conectar ideias, pensamentos e informações de um jeito que faz sentido *pra você*. Esqueça as pastas e hierarquias rígidas que te deixam de cabelo em pé. No Obsidian, a mágica acontece com os links.
 
-Imagina que cada anotação sua é uma pequena ilha. No mundo real, a gente constrói pontes entre essas ilhas, certo? No Obsidian, você faz isso digitalmente. Se você tem uma nota sobre 'TDAH' e outra sobre 'Técnicas de Foco', você pode criar um link entre elas. De repente, suas ideias não estão mais isoladas, elas formam uma rede, um mapa mental gigante que você mesmo constrói. Isso é especialmente útil para quem tem TDAH, por exemplo, porque ajuda a visualizar as conexões e a não perder o fio da meada quando a mente começa a divagar.
+Imagina que cada anotação sua é uma pequena ilha. No mundo real, a gente constrói pontes entre essas ilhas, certo? No Obsidian, você faz isso digitalmente. Se você tem uma nota sobre \'TDAH\' e outra sobre \'Técnicas de Foco\', você pode criar um link entre elas. De repente, suas ideias não estão mais isoladas, elas formam uma rede, um mapa mental gigante que você mesmo constrói. Isso é especialmente útil para quem tem TDAH, por exemplo, porque ajuda a visualizar as conexões e a não perder o fio da meada quando a mente começa a divagar.
 
 E a melhor parte? Ele usa Markdown, que é tipo uma linguagem secreta super fácil de aprender para formatar seu texto. Nada de menus complicados ou botões escondidos. É simples, direto e te permite focar no que realmente importa: suas ideias. Além disso, o Obsidian é offline, o que significa que suas notas estão sempre com você, seguras e acessíveis, sem depender de uma conexão com a internet. Perfeito para aqueles momentos de hiperfoco inesperado, mesmo que você esteja no meio do nada!
 
@@ -36,5 +36,3 @@ Se você está começando agora, respira fundo e não se sinta sobrecarregado. O
 E o mais importante: divirta-se! Transforme a organização em um jogo, em uma exploração. Veja suas ideias florescerem e se conectarem de maneiras que você nunca imaginou. O Obsidian não é só uma ferramenta, é um convite para você entender e celebrar a forma única como sua mente funciona.
 
 E você, já usa o Obsidian? Como ele tem te ajudado? Compartilhe suas experiências e dicas nos comentários! Vamos construir essa comunidade de mentes brilhantes e únicas juntos!
-
-**P.S.: Espero que este guia tenha sido útil para você começar sua jornada com o Obsidian!**
