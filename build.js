@@ -88,7 +88,7 @@ fs.readdirSync(postsDir).forEach(file => {
         </main>
         <aside class="sidebar">
             <div class="author-card">
-                <img src="https://placehold.co/100x100" alt="Foto do Autor" class="author-avatar">
+                <img src="../images/profile.jpeg" alt="Foto do Autor" class="author-avatar">
                 <h3>Ricardo "Ricas" Costa Alves</h3>
                 <p>Pai, tech freak e Neurodivergente</p>
             </div>
@@ -157,7 +157,7 @@ const indexHtml = `
         </main>
         <aside class="sidebar">
             <div class="author-card">
-                <img src="https://placehold.co/100x100" alt="Foto do Autor" class="author-avatar">
+                <img src="../images/profile.jpeg" alt="Foto do Autor" class="author-avatar">
                 <h3>Ricardo "Ricas" Costa Alves</h3>
                 <p>Pai, tech freak e Neurodivergente</p>
             </div>
